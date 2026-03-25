@@ -19,5 +19,7 @@ ipch/
 # Resource compiler output
 *.res
 
-# Generated icon (can be regenerated with gen_icon.py)
-# icon.ico   ← odkomentuj jeśli masz własną ikonę i chcesz ją trzymać w repo
+*.vcxproj
+*.vcxproj.filters
+*.sln
+.vs/

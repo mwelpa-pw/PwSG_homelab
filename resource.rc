@@ -1,0 +1,29 @@
+#include "resource.h"
+
+IDI_APPICON ICON "icon.ico"
+
+IDR_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Export BMP\tCtrl+E",   ID_FILE_EXPORT_BMP
+        MENUITEM SEPARATOR
+        MENUITEM "Save CSV\tCtrl+S",     ID_FILE_SAVE_CSV
+        MENUITEM "Open CSV\tCtrl+O",     ID_FILE_LOAD_CSV
+    END
+    POPUP "&Gradient"
+    BEGIN
+        MENUITEM "Reset\tCtrl+R",        ID_GRADIENT_RESET
+        MENUITEM SEPARATOR
+        MENUITEM "Linear",               ID_GRADIENT_LINEAR
+        MENUITEM "Radial",               ID_GRADIENT_RADIAL
+    END
+END
+
+IDR_ACCEL ACCELERATORS
+BEGIN
+    "R",  ID_GRADIENT_RESET,   VIRTKEY, CONTROL
+    "E",  ID_FILE_EXPORT_BMP,  VIRTKEY, CONTROL
+    "S",  ID_FILE_SAVE_CSV,    VIRTKEY, CONTROL
+    "O",  ID_FILE_LOAD_CSV,    VIRTKEY, CONTROL
+END

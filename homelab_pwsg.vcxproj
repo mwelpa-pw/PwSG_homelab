@@ -30,6 +30,9 @@
   <ItemGroup>
     <Image Include="..\..\Users\mwelpa\Downloads\icon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
