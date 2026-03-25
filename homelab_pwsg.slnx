@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="homelab_pwsg.vcxproj" Id="fec714be-689e-470d-9687-db2bcb0653eb" />
-</Solution>

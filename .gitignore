@@ -23,3 +23,12 @@ ipch/
 *.vcxproj.filters
 *.sln
 .vs/
+
+homelab_pwsg/   # folder VS z plikami projektu
+x64/            # już masz ale upewnij się
+*.aps           # resource.aps - plik tymczasowy VS, niepotrzebny
+#*.exe           # jeśli nie chcesz exe w repo
+
+*.sln
+*.slnx
+.rc
