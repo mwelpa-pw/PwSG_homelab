@@ -19,7 +19,7 @@ ipch/
 # Resource compiler output
 *.res
 
-*.vcxproj
+# *.vcxproj
 *.vcxproj.filters
 *.sln
 .vs/
